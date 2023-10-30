@@ -51,7 +51,7 @@ describe("count1sand0s", () => {
       1: 7,
       0: 0,
     });
-
+    // Arrange, Act, and Assert
     expect(count1sand0s("0111")).toEqual({
       1: 3,
       0: 1,
@@ -159,7 +159,9 @@ describe("findNeedle", () => {
     };
     // Act and Assert
     expect(findNeedle(obj1, "warrington")).toBe(true);
+    // Act and Assert
     expect(findNeedle(obj1, "linnmon")).toBe(true);
+    // Act and Assert
     expect(findNeedle(obj1, "Liverpool")).toBe(false);
   });
 });
